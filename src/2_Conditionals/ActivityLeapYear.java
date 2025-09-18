@@ -1,6 +1,6 @@
 public class ActivityLeapYear {
     public static void main(String[] args) {
-        int year = 2023;
+        int year = 4;
 
         if (year % 100 == 0 && year % 400 != 0) { 
             // three possibilities: divisibible by 100 and not 400, not divisible by a 100 and not divisible by 400, and divisible by both
