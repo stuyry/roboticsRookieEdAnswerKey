@@ -5,12 +5,13 @@ public class ActivityToCelsius {
 
         double Fahrenheit = 100; 
         //Set placeholder value for variable representing Fahrenheit
-        
+
         double toCelsius = (Fahrenheit - 32) * 5 / 9; 
         //Set variable to be equal to the equation that represents celsius after Fahrenheit value is transformed
 
         System.out.println("The temperature in Fahrenheit is".concat(" ") + Fahrenheit); 
         //Prints the set Fahrenheit value so the user knows what Fahrenheit temperature is being converted
+        //.concat() isun a method from java that fctions like the + operator
 
         System.out.print("In celsius, the temperature is " + toCelsius); 
         //Prints the fahrenheit temperature in celsius
